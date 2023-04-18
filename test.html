@@ -1,0 +1,81 @@
+<!--OWNER-Abhijith S Nair-->
+<!DOCTYPE html>
+<html lang="en">
+<!--start of the html-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Exam</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="test.css">
+</head>
+<!--body-->
+<body>
+    <header>
+        <nav>
+            <div class="logo"><img src="resources/sample-logo.png" alt="Your Logo"></div><!--i am using a relative path for the files -->
+            <ul class="menu">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+            <ul class="search-menu">
+                <li><a href="#">SEARCH</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <h1>HTML, CSS, JS Fund. Final Exam</h1>
+    </section>
+    <section class="title-section">
+        <div class="title-content">
+            <h2>I am a title</h2>
+            <p>Some small paragraph about the content. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus sapien vel velit feugiat, vitae fringilla diam fringilla.</p>
+        </div>
+        <div class="title-image">
+            <img src="resources/img2.jpg" alt="Some Image">
+        </div>
+    </section>
+    <section class="images">
+        <img src="resources/img5.jpg" alt="Image 1">
+        <img src="resources/img4.jpg" alt="Image 2">
+        <img src="resources/img3.jpg" alt="Image 3">
+    </section>
+<!--creating the contact panel-->
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Password" required>
+
+            <p>PICK ONE:</p>
+            <label for="true">True</label>
+            <input type="radio" id="true" name="pick-one" value="true" required>
+            <label for="false">False</label>
+            <input type="radio" id="false" name="pick-one" value="false">
+            <!--this essentially gives out options to pick from either true or false-->
+
+            <label for="message">Leave a Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Leave a Message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <footer class="black-section">
+        <h2>Title</h2>
+        <p id="footer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+        <div class="bottom-logo">
+            <img id="footer-logo" src="resources/sample-logo.png" alt="Your Logo">
+        </div>
+    </footer>
+    <script src="test.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,282 @@
+/* Reset some default styles */
+body,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global font settings */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Navigation styles */
+header {
+    background-color: #125784;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Updated menu styles */
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.menu li {
+    margin: 0 10px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+/* Added search menu styles */
+.search-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.search-menu li {
+    margin-left: 10px;
+}
+
+.search-menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.search-menu a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    margin-right: auto;
+    margin-left: 45px;
+}
+
+.logo img {
+    max-height: 90px;
+    display: block;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero section styles */
+.hero {
+    background-image: url('resources/img1.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 350px 0;
+    text-align: center;
+    color: #fff;
+}
+
+h1 {
+    /*self MADE*/
+    display: block;
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.8em;
+    font-weight: 300;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/*self MADE*/
+/* Content section styles */
+.content {
+    background-color: #f57f17;
+    padding: 350px;
+    position: relative;
+}
+
+.content h2,
+.content p {
+    color: #fff;
+}
+
+.content img {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 239px;
+    height: auto;
+}
+
+/* Images section styles */
+.images {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.images img {
+    max-width: 100%;
+    max-height: 500px;
+}
+
+/* Contact form section styles */
+.contact {
+    background-color: #5e35b1;
+    padding: 20px;
+    color: #fff;
+}
+
+.contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.contact form button {
+    background-color: #f57f17;
+    /* Changed the background color to orange */
+    color: #fff;
+    /* Changed the text color to white */
+    border: none;
+    /* Removed the border */
+    padding: 10px 20px;
+    /* Changed the padding to make the button bigger */
+    cursor: pointer;
+}
+
+.contact form button:hover {
+    background-color: #d46a00;
+}
+
+.contact {
+    background-color: #5e35b1;
+    /* Changed the background color to violet */
+    padding: 20px;
+    color: #fff;
+    /* Changed the text color to white */
+}
+
+.contact form p {
+    margin-bottom: 5px;
+}
+
+/* ...styling the radio... */
+.contact form input[type="radio"] {
+    margin: 0 5px;
+}
+
+/* Add styles for the new black section */
+.black-section {
+    background-color: #000;
+    color: #fff;
+    position: relative;
+    padding: 20px;
+}
+
+.black-section h2,
+.black-section p {
+    margin-left: 350px;
+}
+
+.black-section h2 {
+    margin-bottom: 20px;
+}
+
+
+/* Style for the logo at the bottom left corner */
+.bottom-logo {
+    position: absolute;
+    bottom: 10px;
+    left: 60px;
+}
+
+.bottom-logo img {
+    max-height: 150px;
+}
+
+/* Updated title section styles */
+.title-section {
+    display: flex;
+    align-items: center;
+    background-color: #f57f17;
+}
+
+.title-content {
+    margin-left: 20px;
+    /* Add left margin to the content */
+}
+
+.title-section h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.title-section p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.title-image {
+    margin-left: auto;
+}
+
+.title-image img {
+    max-height: 400px;
+    /* Increase the image size */
+    display: block;
+}
+
+
+/* END OF CSS thank you professor  */
